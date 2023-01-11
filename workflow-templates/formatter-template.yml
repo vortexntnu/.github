@@ -1,0 +1,17 @@
+name: format <language> code
+
+on:
+# If you want to make it trigger on other branches, add them as a comma separated list
+# example: 
+#   branches: [ main, testbranch ]
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+  
+jobs:
+  format-cpp:
+    uses: vortexntnu/github-iac/.github/workflows/<formattername>.yml@<branch/tag>
+
+#example: 
+#   uses: vortexntnu/github-iac/.github/workflows/format-python.yml@main
