@@ -1,4 +1,5 @@
 {
     "name": "Code Formatter Template",
-    "description": "Template for using the c and python formatters in the github-iac repo"
+    "description": "Template for using the C and Python formatters in the github-iac repo",
+    "iconName": "formatter-template"
 }
