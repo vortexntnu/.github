@@ -1,0 +1,51 @@
+name: Task template
+about: 'Use this template when defining a new task in an issue. Make sure to fill out all the fields.'
+title: "[TASK] "
+labels: ''
+assignees: ''
+
+body:
+  - type: input
+    id: time_estimate
+    attributes:
+      label: Time estimate
+      description: Fill in the estimated time for the task (in hours).
+      validations:
+        required: true
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: Specify the deadline for the task (in DD.MONTH format).
+      placeholder: DD.MONTH
+      validations:
+        required: true
+
+  - type: markdown
+    id: description
+    attributes:
+      label: Description of task
+      description: Provide a detailed description of the task.
+      validations:
+        required: true
+
+  - type: markdown
+    id: specifications
+    attributes:
+      label: Specifications
+      description: List any specific requirements or specifications for the task.
+
+  - type: markdown
+    id: suggested_workflow
+    attributes:
+      label: Suggested Workflow
+      description: Outline the suggested steps to complete the task.
+
+  - type: markdown
+    id: contacts
+    attributes:
+      label: Contacts
+      description: Provide any relevant contacts for this task (e.g., team members, mentors).
+
+

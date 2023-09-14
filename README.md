@@ -1,5 +1,6 @@
 # .github
-Repo to host templates for workflows, issues and pull requests
+Repo to host templates for workflows, issues and pull requests. The README in profile is what is displayed on the main VortexNTNU page.
 
-## Using Workflow Templates
-See [How to use workflows](https://github.com/vortexntnu/github-iac) in the github-iac repo.
+---
+
+Currently there are only issue templates in this repo
