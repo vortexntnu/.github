@@ -1,5 +1,5 @@
-name: Task template
-about: 'Use this template when defining a new task in an issue. Make sure to fill out all the fields.'
+name: 📃Task template
+description: 'Use this template when defining a new task in an issue. Make sure to fill out all the fields.'
 title: "[TASK] "
 labels: ''
 assignees: ''
@@ -22,7 +22,7 @@ body:
       validations:
         required: true
 
-  - type: markdown
+  - type: textarea
     id: description
     attributes:
       label: Description of task
@@ -30,19 +30,19 @@ body:
       validations:
         required: true
 
-  - type: markdown
+  - type: textarea
     id: specifications
     attributes:
       label: Specifications
       description: List any specific requirements or specifications for the task.
 
-  - type: markdown
+  - type: textarea
     id: suggested_workflow
     attributes:
       label: Suggested Workflow
       description: Outline the suggested steps to complete the task.
 
-  - type: markdown
+  - type: textarea
     id: contacts
     attributes:
       label: Contacts
