@@ -52,6 +52,6 @@ body:
       label: Contacts
       description: Provide any relevant contacts for this task (e.g., team members, mentors).
       placeholder: |
-      - Name - Member/Mentor, knows this and that
+        - Name - Member/Mentor, knows this and that
 
 
