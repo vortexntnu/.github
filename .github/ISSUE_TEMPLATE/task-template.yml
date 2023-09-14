@@ -1,5 +1,5 @@
 name: 📃Task Template
-description: Use this template when defining a new task in an issue. Make sure to fill out all the fields
+description: Use this template when defining a new task in an issue
 title: "[TASK] "
 labels: ["feature"]
 
