@@ -6,19 +6,19 @@ labels: ["feature"]
 body:
   - type: input
     attributes:
-      label: Time estimate
-      description: Fill in the estimated time for the task (in hours).
+      label: Time estimate (Hours)
+      description: Fill in the estimated time for the task.
       placeholder: |
-        HH
+        HH (Hours)
     validations:
       required: true
 
   - type: input
     attributes:
-      label: Deadline
-      description: Specify the deadline for the task (in DD.MONTH format).
+      label: Deadline (DD.MM)
+      description: Specify the deadline for the task.
       placeholder: |
-        DD.MONTH
+        DD.MM (Day.Month)
     validations:
       required: true
 
@@ -51,5 +51,7 @@ body:
     attributes:
       label: Contacts
       description: Provide any relevant contacts for this task (e.g., team members, mentors).
+      placeholder: |
+      - Name - Member/Mentor, knows this and that
 
 
