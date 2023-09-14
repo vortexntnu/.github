@@ -3,7 +3,7 @@ name: 📃 Task template 2
 about: 'Use this template when defining a new task in an issue. Make sure to fill
   out all the fields. '
 title: "[TASK]"
-labels: ''
+labels: 'feature'
 assignees: ''
 
 ---
