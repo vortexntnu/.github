@@ -10,8 +10,8 @@ body:
       description: Fill in the estimated time for the task (in hours).
       placeholder: |
         HH
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: input
     attributes:
@@ -19,15 +19,15 @@ body:
       description: Specify the deadline for the task (in DD.MONTH format).
       placeholder: |
         DD.MONTH
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     attributes:
       label: Description of task
       description: Provide a detailed description of the task.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     attributes:
