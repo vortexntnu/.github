@@ -13,39 +13,39 @@ body:
       validations:
         required: true
 
-  - type: input
-    id: deadline
-    attributes:
-      label: Deadline
-      description: Specify the deadline for the task (in DD.MONTH format).
-      placeholder: DD.MONTH
-      validations:
-        required: true
+  # - type: input
+  #   id: deadline
+  #   attributes:
+  #     label: Deadline
+  #     description: Specify the deadline for the task (in DD.MONTH format).
+  #     placeholder: DD.MONTH
+  #     validations:
+  #       required: true
 
-  - type: textarea
-    id: description
-    attributes:
-      label: Description of task
-      description: Provide a detailed description of the task.
-      validations:
-        required: true
+  # - type: textarea
+  #   id: description
+  #   attributes:
+  #     label: Description of task
+  #     description: Provide a detailed description of the task.
+  #     validations:
+  #       required: true
 
-  - type: textarea
-    id: specifications
-    attributes:
-      label: Specifications
-      description: List any specific requirements or specifications for the task.
+  # - type: textarea
+  #   id: specifications
+  #   attributes:
+  #     label: Specifications
+  #     description: List any specific requirements or specifications for the task.
 
-  - type: textarea
-    id: suggested_workflow
-    attributes:
-      label: Suggested Workflow
-      description: Outline the suggested steps to complete the task.
+  # - type: textarea
+  #   id: suggested_workflow
+  #   attributes:
+  #     label: Suggested Workflow
+  #     description: Outline the suggested steps to complete the task.
 
-  - type: textarea
-    id: contacts
-    attributes:
-      label: Contacts
-      description: Provide any relevant contacts for this task (e.g., team members, mentors).
+  # - type: textarea
+  #   id: contacts
+  #   attributes:
+  #     label: Contacts
+  #     description: Provide any relevant contacts for this task (e.g., team members, mentors).
 
 
