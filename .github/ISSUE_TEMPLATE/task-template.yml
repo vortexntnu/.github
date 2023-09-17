@@ -4,23 +4,23 @@ title: "[TASK] "
 labels: ["feature"]
 
 body:
-  - type: input
-    attributes:
-      label: Time estimate (Hours)
-      description: Fill in the estimated time for the task.
-      placeholder: |
-        HH (Hours)
-    validations:
-      required: true
+#  - type: input
+#    attributes:
+#      label: Time estimate (Hours)
+#      description: Fill in the estimated time for the task.
+#      placeholder: |
+#        HH (Hours)
+#    validations:
+#      required: true
 
-  - type: input
-    attributes:
-      label: Deadline (DD.MM)
-      description: Specify the deadline for the task.
-      placeholder: |
-        DD.MM (Day.Month)
-    validations:
-      required: true
+#  - type: input
+#    attributes:
+#      label: Deadline (DD.MM)
+#      description: Specify the deadline for the task.
+#      placeholder: |
+#       DD.MM (Day.Month)
+#    validations:
+#      required: true
 
   - type: textarea
     attributes:
