@@ -1,5 +1,5 @@
-name: 🔬Research Template
-description: Use this template when defining a new task in an issue
+name: 🔬 Research Template
+description: Use this template when the task is a topic that needs to be looked further into
 title: "[RESEARCH] "
 
 body:
@@ -13,7 +13,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Reccomended Reading
+      label: Recommended Reading
       description: List relevant reading material for the project
       placeholder: |
         - Source 1
