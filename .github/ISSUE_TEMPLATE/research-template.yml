@@ -1,0 +1,38 @@
+name: 📃Task Template
+description: Use this template when defining a new task in an issue
+title: "[RESEARCH] "
+
+body:
+
+  - type: textarea
+    attributes:
+      label: Description of task
+      description: Provide a detailed description of the task.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Reccomended Reading
+      description: List relevant reading material for the project
+      placeholder: |
+        - Source 1
+        - Source 2
+        - Source 3
+
+  - type: textarea
+    attributes:
+      label: Suggested Workflow
+      description: Outline the suggested steps to complete the task.
+      placeholder: |
+        - Step 1
+        - Step 2
+        - Step 3
+
+  - type: textarea
+    attributes:
+      label: Contacts
+      description: Provide any relevant contacts for this task (e.g., team members, mentors).
+      placeholder: |
+        - Name - Member/Mentor, knows this and that
+
