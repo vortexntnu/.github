@@ -4,24 +4,6 @@ title: "[TASK] "
 labels: ["feature"]
 
 body:
-#  - type: input
-#    attributes:
-#      label: Time estimate (Hours)
-#      description: Fill in the estimated time for the task.
-#      placeholder: |
-#        HH (Hours)
-#    validations:
-#      required: true
-
-#  - type: input
-#    attributes:
-#      label: Deadline (DD.MM)
-#      description: Specify the deadline for the task.
-#      placeholder: |
-#       DD.MM (Day.Month)
-#    validations:
-#      required: true
-
   - type: textarea
     attributes:
       label: Description of task
@@ -31,21 +13,21 @@ body:
 
   - type: textarea
     attributes:
-      label: Specifications
-      description: List any specific requirements or specifications for the task.
-      placeholder: |
-        - Spec 1
-        - Spec 2
-        - Spec 3
-
-  - type: textarea
-    attributes:
       label: Suggested Workflow
       description: Outline the suggested steps to complete the task.
       placeholder: |
-        - Step 1
-        - Step 2
-        - Step 3
+        - [ ] Step 1
+        - [ ] Step 2
+        - [ ] Step 3
+
+  - type: textarea
+    attributes:
+      label: Specifications
+      description: List any specific requirements or specifications for the task.
+      placeholder: |
+        - [ ] Spec 1
+        - [ ] Spec 2
+        - [ ] Spec 3
 
   - type: textarea
     attributes:
@@ -53,5 +35,14 @@ body:
       description: Provide any relevant contacts for this task (e.g., team members, mentors).
       placeholder: |
         - Name - Member/Mentor, knows this and that
+
+  - type: checkboxes
+    attributes:
+      label: Code Quality
+      description: Is your code up to the standards (check after writing code)
+      options:
+        - label: Every function in header files are documented (inputs/returns/exceptions)
+        - label: The project has automated tests that cover MOST of the functions and branches in functions (pytest/gtest)
+        - label: The code is documented on the wiki (provide link)
 
 
