@@ -1,6 +1,6 @@
 name: 🐛Bug Report
 description: File a bug report here
-title: "[BUG]: "
+title: "[BUG] "
 labels: ["bug"]
 
 body:
@@ -28,8 +28,7 @@ body:
         2. Click on '...'
         3. Scroll down to '...'
         4. See error
-    validations:
-      required: true
+
   - type: textarea
     id: additional-information
     attributes:
